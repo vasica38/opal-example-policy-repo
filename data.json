@@ -1,72 +1,33 @@
 {
+   
   "users": {
-    "alice": {
-      "roles": ["admin"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
-    "bob": {
-      "roles": ["employee", "billing"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
-    "eve": {
-      "roles": ["customer"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
+    "ffff@gmail.com": {
+      "roles": [
+        "Basic subscription", 
+        "Premium subscription"
+      ]
+    }, 
+    "vasica38@gmail.com": {
+      "roles": [
+        "Premium subscription"
+      ]
     }
   },
   "role_permissions": {
-    "customer": [
+    "Basic": [
       {
-        "action": "read",
+        "action": "read", 
         "type": "dog"
-      },
-      {
-        "action": "read",
-        "type": "cat"
-      },
-      {
-        "action": "adopt",
-        "type": "dog"
-      },
-      {
-        "action": "adopt",
-        "type": "cat"
       }
-    ],
-    "employee": [
+    ], 
+    "Premium": [
       {
-        "action": "read",
+        "action": "read", 
         "type": "dog"
-      },
+      }, 
       {
-        "action": "read",
+        "action": "read", 
         "type": "cat"
-      },
-      {
-        "action": "update",
-        "type": "dog"
-      },
-      {
-        "action": "update",
-        "type": "cat"
-      }
-    ],
-    "billing": [
-      {
-        "action": "read",
-        "type": "finance"
-      },
-      {
-        "action": "update",
-        "type": "finance"
       }
     ]
   }
