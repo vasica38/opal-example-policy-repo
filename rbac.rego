@@ -1,5 +1,5 @@
 # Role-based Access Control (RBAC)
-# --------------------------------
+# ---------------------------------------
 #
 # This example defines an RBAC model for a Pet Store API. The Pet Store API allows
 # users to look at pets, adopt them, update their stats, and so on. The policy
@@ -15,7 +15,7 @@
 # For more information see:
 #
 #	* Rego comparison to other systems: https://www.openpolicyagent.org/docs/latest/comparison-to-other-systems/
-#	* Rego Iteration: https://www.openpolicyagent.org/docs/latest/#iteration
+#	* Rego Iteration: https://www.openpolicyagent.org/docs/latest/#iteration 
 
 package app.rbac
 
